@@ -101,7 +101,7 @@
           //call the set function of our SimpleStorage contract
           myfunction.set.sendTransaction(document.getElementById("xvalue").value, {
             from: web3.eth.accounts[0],
-            gas: 4000000
+            gas: 40000
           }, function(error, result) {
             if (!error) {
               console.log(result);
